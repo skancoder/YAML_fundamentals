@@ -1,0 +1,47 @@
+name: san
+age: 25
+# address: san: code #error
+address: "san: code"
+active: true
+
+#objects
+key: 
+    key: value
+    key2: 24
+    key3:
+        key: value
+        key2: value
+
+#json style object
+jsonObject: {key: value, key2: 25, key3: {key: value, key2: value}}
+
+#array
+array: 
+    - item1
+    - item2
+    - {key: value}
+
+#json style array
+jsonArray: [item1,item2]
+
+# array of objects
+objectsArray:
+    - {key: value}
+
+objectsArray1:
+    - key: value
+      key2: value2
+    - key: value
+      key2: value2
+
+# all text in single line
+longtext: >
+    sjdfhdsf sdfdsfsf 
+    sdfdsffds sdfdsffdssdffsdfsdfsdfsd
+    sdfsdf
+
+# all text in single line also perserve new line "\n"
+longtext1: |
+    sjdfhdsf sdfdsfsf 
+    sdfdsffds sdfdsffdssdffsdfsdfsdfsd
+    sdfsdf  
